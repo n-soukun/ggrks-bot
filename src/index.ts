@@ -3,6 +3,7 @@ import { Client, GatewayIntentBits } from "discord.js";
 
 import { handler } from "./builders";
 
+process.on("uncaughtException", console.error);
 dotenv.config();
 
 const client = new Client({
