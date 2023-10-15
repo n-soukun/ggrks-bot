@@ -1,0 +1,20 @@
+{
+  "name": "ggrks-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "regist": "tsc && node ./dist/register.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soukun",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "discordjs-builder-wraper": "^0.0.4",
+    "dotenv": "^16.3.1",
+    "i": "^0.3.7",
+    "npm": "^10.2.0"
+  }
+}
